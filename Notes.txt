@@ -1,0 +1,12 @@
+file name: vite.config.js  (Create and copy this if it gives you problems then)
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+
+export default defineConfig({
+    base: "/homepage/",
+    plugins: [react()],
+})
+
+- add the Dashboard on file called "Functiona" then just 
+contine with further instructions 
