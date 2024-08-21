@@ -57,7 +57,7 @@ const Details = () => {
       <form onSubmit={handleLogin}>
         <div className="login-flex-row">
           <div className="login-input-group">
-            <label className="login-label" htmlFor="companyName">Company Name:</label>
+            <label className="login-label" htmlFor="companyName" placeholder="name of company">Company Name:</label>
             <input className="login-input" type="text" id="companyName" value={companyName} onChange={(e) => setCompanyName(e.target.value)} required />
           </div>
           <div className="login-input-group">
